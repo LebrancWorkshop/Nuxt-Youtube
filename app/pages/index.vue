@@ -1,16 +1,29 @@
 <template>
   <div>
-    <h1>Hello App</h1>
+    <header>
+      <div>
+        <h1>Supasoda</h1>
+      </div>
+      <div>
+        <h3>Making Soda great again !</h3>
+      </div>
+    </header>
   </div>
 </template>
 
 <script>
-
+  export default {
+    name: "IndexPage",
+  }
 </script>
 
 <style>
-  export default {
-    name: "IndexPage",
+  * {
+    font-family: 'Rubik', sans-serif;
+  }
+
+  header {
+    text-align: center;
   }
 </style>
 
