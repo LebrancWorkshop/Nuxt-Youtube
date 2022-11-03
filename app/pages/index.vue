@@ -8,6 +8,9 @@
         <h3>Making Soda great again !</h3>
       </div>
     </header>
+    <section>
+      <SodaCard />
+    </section>
   </div>
 </template>
 
